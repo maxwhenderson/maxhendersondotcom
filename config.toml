@@ -1,4 +1,4 @@
-baseurl = "http://www.maxhenderson.com"
+baseurl = "https://maxhenderson.com/"
 title = "Max's Blog"
 
 theme = "hugo-coder"
@@ -24,7 +24,7 @@ googleAnalytics = "UA-142166823-1"
     avatarurl = "avatar.jpg"
     favicon_32 = "favicon-32x32.png"
     favicon_16 = "favicon-16x16.png"
-    footercontent = "Enter a text here."
+ #   footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
 
@@ -84,27 +84,37 @@ googleAnalytics = "UA-142166823-1"
     [languages.en]
         languagename = "English"
 
-         [[languages.en.menu.main]]
-        name = "Home"
-        weight = 1
-        url = "/"
+#         [[languages.en.menu.main]]
+#        name = "Home"
+#        weight = 1
+#        url = "/"
 
-        [[languages.en.menu.main]]
-        name = "About"
-        weight = 2
-        url = "/about/"
+#        [[languages.en.menu.main]]
+#        name = "About"
+#        weight = 2
+#        url = "/about/"
 
-        [[languages.en.menu.main]]
-        name = "Blog"
-        weight = 3
-        url = "/posts/"
+#        [[languages.en.menu.main]]
+#        name = "Ideas"
+#        weight = 3
+#        url = "/categories/ideas"
 
-        [[languages.en.menu.main]]
-        name = "Projects"
-        weight = 4
-        url = "/projects/"
+#        [[languages.en.menu.main]]
+#        name = "Travel Reports"
+#        weight = 4
+#        url = "/categories/travel-reports"
 
-        [[languages.en.menu.main]]
-        name = "Contact"
-        weight = 5
-        url = "/contact/"
+#        [[languages.en.menu.main]]
+#        name = "Book Notes"
+#        weight = 5
+#        url = "/categories/book-notes"
+
+#        [[languages.en.menu.main]]
+#        name = "Projects"
+#        weight = 4
+#        url = "/projects/"
+
+#        [[languages.en.menu.main]]
+#        name = "Contact"
+#        weight = 5
+#        url = "/contact/"

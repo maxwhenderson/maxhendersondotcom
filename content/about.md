@@ -1,29 +1,12 @@
 +++
-title = "About Hugo"
+title = "About"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+Originally from Miami, FL, born to German/Cuban parents, I learned to code as a child. I then moved to Indiana where I double-majored in Computer Science and Electrical Engineering at Rose-Hulman Institute of Technology in 2006. Subsequently, I moved to sunny California.
 
+Together with James, I’ve started several startups. By far the most successful one was Firebase, which we started in 2011. We sold the company to Google in 2014, where we continued to work and grow the business. Firebase is now by far the largest platform for mobile and web app development in the world. It’s used by ~15% of all developers (rivaling iOS in terms of developer usage, as a comparison).
 
-It makes use of a variety of open source projects including:
+I left Google in December 2017 and am now focused on angel investing and philanthropy. I live in San Francisco, California, though I travel frequently.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+Some of you may know my brother Tim, who writes about technology things much more frequently than I.
