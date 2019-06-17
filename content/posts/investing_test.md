@@ -1,12 +1,11 @@
 +++
 date = "2019-06-15"
-title = "First Book Note Post"
+title = "First Investing Post"
 tags = []
 categories = [
-    "Book Notes"
+    "Investing"
 ]
 series = []
-rating = 10
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

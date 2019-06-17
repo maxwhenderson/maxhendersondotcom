@@ -1,0 +1,60 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container post">
+    <article>
+      <header style="display:flex; flex-direction: row;">
+        <div>
+          {{ if .Params.Image }}
+            <img style="display:flex; flex-direction: column; padding-right: 20px; width: 140px;" src="{{.Site.BaseURL}}{{.Params.Image}}" />
+          {{ end }}
+        </div>
+        <div style="display:flex; flex-direction: column;" >
+          <div class="post-title">
+            <h1 class="title">{{ .Title }}</h1>
+          </div>
+          <div class="post-meta">
+            <div class="date">
+              <span class="posted-on">
+                <i class="fas fa-calendar"></i>
+                <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                  {{ .Date.Format (.Site.Params.dateFormat | default "Jan 2, 2006" ) }}
+                </time>
+              </span>
+              <span class="reading-time">
+                <i class="fas fa-clock"></i>
+                {{ i18n "reading_time" .ReadingTime }}
+              </span>
+            </div>
+            {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+            {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+            {{ if .Params.Rating }}
+              <span class="reading-time">
+                  <i class="fas fa-star"></i>
+                  Rating: {{ .Params.Rating }} / 10
+              </span> <br>
+            {{ end }}
+            {{ if .Params.Link }}
+              <span class="reading-time">
+                  <i class="fas fa-shopping-cart"></i>
+                  <a href="{{ .Params.Link }}">Amazon</a>
+              </span>
+            {{ end }}
+          </div>
+        </div>
+      </header>
+
+      <div>
+        {{ .Content }}
+      </div>
+
+      <footer>
+        {{ partial "posts/series.html" . }}
+        {{ partial "posts/disqus.html" . }}
+      </footer>
+    </article>
+
+    {{ partial "posts/math.html" . }}
+  </section>
+{{ end }}

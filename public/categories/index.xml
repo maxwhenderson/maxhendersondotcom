@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Book Notes</title>
-      <link>https://maxhenderson.com/categories/book-notes/</link>
-      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://maxhenderson.com/categories/book-notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ideas</title>
       <link>https://maxhenderson.com/categories/ideas/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
@@ -30,11 +21,29 @@
     </item>
     
     <item>
+      <title>Investing</title>
+      <link>https://maxhenderson.com/categories/investing/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://maxhenderson.com/categories/investing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Travel Reports</title>
       <link>https://maxhenderson.com/categories/travel-reports/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://maxhenderson.com/categories/travel-reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book Notes</title>
+      <link>https://maxhenderson.com/categories/book-notes/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://maxhenderson.com/categories/book-notes/</guid>
       <description></description>
     </item>
     

@@ -9,4 +9,6 @@ categories = []
 externalLink = ""
 series = []
 rating = ""
+image = ""
+link = ""
 +++

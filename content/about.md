@@ -3,10 +3,10 @@ title = "About"
 slug = "about"
 +++
 
-Originally from Miami, FL, born to German/Cuban parents, I learned to code as a child. I then moved to Indiana where I double-majored in Computer Science and Electrical Engineering at Rose-Hulman Institute of Technology in 2006. Subsequently, I moved to sunny California.
+Originally from Florida, and born to German/Cuban immigrants, I learned to love coding and the outdoors from an early age. I attended Cornell University, where I studied Applied Economics, while working as a software engineer.
 
-Together with James, I’ve started several startups. By far the most successful one was Firebase, which we started in 2011. We sold the company to Google in 2014, where we continued to work and grow the business. Firebase is now by far the largest platform for mobile and web app development in the world. It’s used by ~15% of all developers (rivaling iOS in terms of developer usage, as a comparison).
+Since then, I've held roles in engineering, product, sales, marketing, and finance, in industries ranging from healthcare to cloud infrastructure, and started several startups. As one of the early members of [Google Cloud](https://cloud.google.com), I've had the privilege of helping grow a business to $Bs in revenue. 
 
-I left Google in December 2017 and am now focused on angel investing and philanthropy. I live in San Francisco, California, though I travel frequently.
+Most recently, I led Go-To-Market at [Firebase](https://firebase.google.com), which was founded by [James](https://twitter.com/jamestamplin) and [Andrew](https://startupandrew.com) in 2011, and sold to Google in 2014. Firebase is now the largest app development platform in the world, used by ~15% of all developers.
 
-Some of you may know my brother Tim, who writes about technology things much more frequently than I.
+I left Google in January 2019 and am now focused on consulting, angel investing, and travel, while looking for what's next. I live in San Francisco, California.
